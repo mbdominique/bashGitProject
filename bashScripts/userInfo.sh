@@ -1,5 +1,7 @@
-echo "Reporting User Group IDs"; echo
-id
+=======
+echo "Reporting Group IDs for user codio"; echo
+id codio
+>>>>>>> reporting-features
 echo "Reporting Current Running Processes"; echo
 ps auxw | grep "codio"
 
