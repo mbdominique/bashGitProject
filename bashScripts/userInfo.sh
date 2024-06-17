@@ -1,3 +1,6 @@
+echo "Reporting Current Running Processes"; echo
+ps auxw | grep "codio"
+
 echo "User Login History"; echo
 last
 
